@@ -1,0 +1,29 @@
+/* Task.css */
+.task {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  margin: 10px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.task-description,
+.task-due-date,
+.task-priority {
+  width: calc(33.333% - 10px);
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.task-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+/* responsive.css */
+@media screen and (max-width: 600px) {
+    .task {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .task-description,
+    .task-due-date,
+    .task-priority {
+      margin-bottom: 10px;
+    }
+  
+    .tasks-container {
+      flex-direction: column;
+    }
+}
